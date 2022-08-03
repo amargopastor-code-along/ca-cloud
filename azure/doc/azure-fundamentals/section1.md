@@ -8,13 +8,13 @@
 
 ## Beneficios del cloud computing
 
-Con el cloud computing las organizaciones pueden almacenar sus datos y ejecutar sus soluciones como mejor les convenga para cumplir con sus requisitos de negocio.
+Con el cloud computing las organizaciones pueden `almacenar sus datos y ejecutar sus soluciones` como mejor les convenga para cumplir con sus requisitos de negocio.
 
 <p align="center">
   <img src="./img/img1.png" style="width: 50%">
 </p>
 
-El primero beneficio es la `rentabilidad` ya que se basa en un `modelo de precios basado en el consumo`. Los benebicios son múltiples:
+El primer beneficio es la `rentabilidad` ya que se basa en un `modelo de precios basado en el consumo`. Los benebicios son múltiples:
 
 - Sin coste al inicio
 - Existe la posibilidad de pagar por por recursos adicionales
@@ -41,8 +41,7 @@ Además, los proveedores ofrecen `seguridad` mediante servicios de copias de dat
 
 ## Economías de escala
 
-`Capacidad de hacer las cosas de manera más eficiente o a un menor costo por unidad cuando se opera a mayor escala`. Esta ventaja de coste es un beneficio primordial en el mundo cloud, y así los aprovechan los proveedores porque redunda en beneficio del cliente final. Además los proveedores colaboran con distintas organizaciones y entidades de gobierno para obtener ahorros en coste, refrigeración, infraestructura, etc.
-Todo ello se traduce en precios más asequibles.
+`Capacidad de hacer las cosas de manera más eficiente o a un menor costo por unidad cuando se opera a mayor escala`. Esta ventaja de coste es un beneficio primordial en el mundo cloud, y así los aprovechan los proveedores porque redunda en beneficio del cliente final. Además los proveedores colaboran con distintas organizaciones y entidades de gobierno para obtener ahorros en coste, refrigeración, infraestructura, etc. Todo ello se traduce en precios más asequibles.
 
 ## CapEx & OpEx
 

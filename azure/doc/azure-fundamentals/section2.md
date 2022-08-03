@@ -18,7 +18,7 @@ Entre sus responsabilidades destaca la disponbilidad del hardware físico necesa
 
 - Capacidad de cómputo: capacidad de ejecución de aplicaciones sobre máquinas virtuales bajo demanda
 - Almacenamiento: bbdd o archivos
-- Dispnibilidad de componentes de conectividad de red
+- Disponibilidad de componentes de conectividad de red
 - Servicios de análisis y monitoreo de recursos
 
 ## El cómputo en la nube
@@ -43,7 +43,7 @@ Un ejemplo del mismo es `DOCKER`. Es posible ejecutar distintos contenedores en 
 
 `Serverless`: en este modelo solo pagamos por el tiempo de procesamiento (en los modelos anteriores se paga aunque no se empleen las aplicaciones o estén inactivas).
 
-Esta arquitectura es respecialmente recomendable cuando la lógica de nuestra aplicación se puede separar en unidades independientes y podemos ejecutarlas por separado, actualizarlas e iniciarlas en milisegundos, lo que lo convierte en `la opción más rápida` para la implementación.
+Esta arquitectura es especialmente recomendable cuando la lógica de nuestra aplicación se puede separar en unidades independientes y podemos ejecutarlas por separado, actualizarlas e iniciarlas en milisegundos, lo que lo convierte en `la opción más rápida` para la implementación.
 
 <p align="center">
   <img src="./img/img10.png" style="width: 50%">
