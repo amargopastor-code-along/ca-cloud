@@ -125,3 +125,56 @@ ARM is the deployment and managment service for Azure, and it's central to all t
 
 - Improve performance, availability and security of resorces.
 - Ways to save cost in Azure.
+
+## Azure Compute
+
+`Azure Compute` is a set of services that provides on-demand computing power related to running application workloads.
+
+- `Virtual Machine`: IaaS
+- `Containers`: Virtualized enviroments for running applications (no OS, more lightweight)
+- `Azure App Service`: PaaS for host applications (also API and APPs)
+- `Serverless Compute`: Build applications without managing any underlying infraestructure
+  - `Azure Functions`: allows run small bloks of code
+  - `Azure Login Apps`: allow configure workflows in the cloud
+  - `Azure Event Grid`: build applications that respond to events
+
+<p align="center">
+  <img src="./img/img5.png" style="width: 50%">
+</p>
+
+## Azure Virtual Machines
+
+IaaS that allows full control over operationg system. We must maintain and patch VM. Virtualize the hardware. Decisions:
+
+- Type of image (OS and softwares)
+- Size (RAM, processors, etc)
+- Availability options
+
+> Azure Market Place: online store that offers applications and services created by MSFT or technology partners.
+
+## Virtual machine Scale Sets
+
+Group of VMs with load balancing when number of VMs can scale out/in (in response to load o schedule). Also can be spread across fault domains and update domains. Only pay for the underlying resources.
+
+## Containers
+
+`Containers` a way to wrap up application into its own isolated package for server-based applications and services (web apps, as example).
+
+<p align="center">
+  <img src="./img/img6.png" style="width: 50%">
+</p>
+
+- A `container` is an `instance of a container image`
+- An `image` is a read-only template with instructions on how to create the container
+- `Container registry` is a service that stores and distributes container images (Docker Hub)
+
+<p align="center">
+  <img src="./img/img7.png" style="width: 50%">
+</p>
+
+## Docker
+
+- Standar for container format
+- Runtime for Docker containers
+- Open-source project that automates the deployment of a containers that can run in the cloud or on-premises
+- Is a runtime process that we can install on any workstation or VM
