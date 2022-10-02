@@ -144,7 +144,7 @@ ARM is the deployment and managment service for Azure, and it's central to all t
 
 ## Azure Virtual Machines
 
-IaaS that allows full control over operationg system. We must maintain and patch VM. Virtualize the hardware. Decisions:
+IaaS that allows full control over operationg system. We must maintain and patch VM. `Virtualize the hardware`. Decisions:
 
 - Type of image (OS and softwares)
 - Size (RAM, processors, etc)
@@ -158,7 +158,7 @@ Group of VMs with load balancing when number of VMs can scale out/in (in respons
 
 ## Containers
 
-`Containers` a way to wrap up application into its own isolated package for server-based applications and services (web apps, as example).
+`Containers` a way to wrap up application into its own isolated package for server-based applications and services (web apps, as example). `Virtualize the software`
 
 <p align="center">
   <img src="./img/img6.png" style="width: 50%">
@@ -166,7 +166,7 @@ Group of VMs with load balancing when number of VMs can scale out/in (in respons
 
 - A `container` is an `instance of a container image`
 - An `image` is a read-only template with instructions on how to create the container
-- `Container registry` is a service that stores and distributes container images (Docker Hub)
+- `Container registry` is a service that stores and distributes container images (Docker Hub or Azure Container Registry)
 
 <p align="center">
   <img src="./img/img7.png" style="width: 50%">
@@ -178,3 +178,44 @@ Group of VMs with load balancing when number of VMs can scale out/in (in respons
 - Runtime for Docker containers
 - Open-source project that automates the deployment of a containers that can run in the cloud or on-premises
 - Is a runtime process that we can install on any workstation or VM
+
+<p align="center">
+  <img src="./img/img8.png" style="width: 50%">
+</p>
+
+## Azure Kubernetes Service (AKS)
+
+- Container managment system in Azure
+- Scale out container-based applications (adding, removing and monitoring the deployed containers)
+- `Pods`: groups of containers
+- `Nodes`: Kubernetes runs POnd on nodes, which in AKS are VM
+- Choose VM scale sets for automating scale out
+- Conect AKS cluster with Azure Container Registry to pull container images and build containers from those images
+- Azure Monitor
+
+Azure main services for hosting containers:
+
+- Azure Container Instances
+- Azure Kubernetes Service
+
+## Azure APP Services
+
+- Similar to traditional web hosting
+- Framework runtimes installed on servers
+- Azure manages web servers for you
+
+Can host:
+
+- Web APPs
+- API APPs (REST protocol web service)
+- Host backend code from Mobile APPs
+- Can deploy containers
+- WebJobs that allows run services on the underlyng VMs of the App Service
+
+`App Service plan`: defines the size of the underlying infrastructure (choose CPU, RAM and storage, aka `pricing tier`)
+
+<p align="center">
+  <img src="./img/img9.png" style="width: 50%">
+</p>
+
+## Serverles Compute in Azure
