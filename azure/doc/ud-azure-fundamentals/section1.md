@@ -17,7 +17,7 @@ Con el cloud computing las organizaciones pueden `almacenar sus datos y ejecutar
 El primer beneficio es la `rentabilidad` ya que se basa en un `modelo de precios basado en el consumo`. Los benebicios son múltiples:
 
 - Sin coste al inicio
-- Existe la posibilidad de pagar por por recursos adicionales
+- Existe la posibilidad de pagar por recursos adicionales
 - Eliminar costes de productos que no estemos empleando
 
 Todo ello favorece una mejor predicción en los costes del `servicio cloud`. Azure facilita información sobre los costes de los recursos y servicios individuales para estimar el gasto en un período de tiempo determinado en función de un uso esperado. También podemos realizar análisis basados en crecimientos futuros según el histórico de datos.
@@ -43,7 +43,7 @@ Además, los proveedores ofrecen `seguridad` mediante servicios de copias de dat
 
 `Capacidad de hacer las cosas de manera más eficiente o a un menor costo por unidad cuando se opera a mayor escala`. Esta ventaja de coste es un beneficio primordial en el mundo cloud, y así los aprovechan los proveedores porque redunda en beneficio del cliente final. Además los proveedores colaboran con distintas organizaciones y entidades de gobierno para obtener ahorros en coste, refrigeración, infraestructura, etc. Todo ello se traduce en precios más asequibles.
 
-## CapEx & OpEx
+## CapEx & OpEx
 
 Como hemos mencionado anteriormente, el cloud computing proporciona servicios en la nube sin costos iniciales significtivos y ahorra tiempo en la configuración. Estos dos conceptos de inversión se conocen como CapEx & OpEx.
 

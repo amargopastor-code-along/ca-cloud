@@ -81,6 +81,38 @@ Will affect to `performance and availability` of your applications and data.
   <img src="./img/img3.png" style="width: 50%">
 </p>
 
+## Regions and Availability Zone
+
+Physical server are located on `datacenters`. Those are physical building located all around the world (over 200 MSFT Azure datacenter worldwide):
+
+<p align="center">
+  <img src="./img/img10.png" style="width: 50%">
+</p>
+
+Datacenters are located in `regions`:
+
+<p align="center">
+  <img src="./img/img11.png" style="width: 50%">
+</p>
+
+But within certains regions, there's `availability zones`: unique physical locations within a single region (minimun 3 AZ per region).
+
+<p align="center">
+  <img src="./img/img12.png" style="width: 50%">
+</p>
+
+`Azure geography` is a group of regions that define a boundary for data residency and disaster recovery. AG usually is a single country, but it can be made up of multiple countries. Within a AG, there are `regions pairs available`:
+
+<p align="center">
+  <img src="./img/img13.png" style="width: 50%">
+</p>
+
+## Suscriptions and Azure Active Directory Tenant
+
+<p align="center">
+  <img src="./img/img14.png" style="width: 50%">
+</p>
+
 ## Resource
 
 `A resource` is a manageable item in Azure (VM, Storage Accounts, Web Apps, DBs, Virtual Networks...).
@@ -126,7 +158,7 @@ ARM is the deployment and managment service for Azure, and it's central to all t
 - Improve performance, availability and security of resorces.
 - Ways to save cost in Azure.
 
-## Azure Compute
+## Azure Compute
 
 `Azure Compute` is a set of services that provides on-demand computing power related to running application workloads.
 
